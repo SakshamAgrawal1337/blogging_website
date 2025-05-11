@@ -1,0 +1,81 @@
+.app-container{
+
+  display : flex;
+}
+
+.content-container{
+  width: 100%;
+}
+.sidebar{
+  min-height: 800px ;
+
+}
+
+.post-card{
+  margin: 20px 50px;
+}
+.hash-tag{
+  margin: 0px 3px;
+}
+
+.reaction {
+  margin-top: 10px;
+  width : 100%;
+}
+
+.create-post-form{
+  width: 80%;
+  margin: 50px;
+  margin-left: 10%;
+}
+.Welcome-Msg{
+  margin: 100px 0px;
+}
+.spinner{
+  margin: 10vw  ;
+  
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-group:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+  top: 100%; 
+  left: 0; 
+  transform: none; 
+  position: absolute; 
+  z-index: 1000; 
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute; 
+}
+.red-color {
+  color: red !important;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.fa-bounce {
+  animation: bounce 1s;
+}
+
+.placeholder-white::placeholder {
+  color: rgba(255, 255, 255, 0.599) !important;
+  opacity: 1; 
+}
+
+
+
